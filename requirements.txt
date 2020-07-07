@@ -4,3 +4,4 @@ numpy==1.18.4
 fastapi==0.58.1
 uvicorn
 aiofiles
+sklearn
