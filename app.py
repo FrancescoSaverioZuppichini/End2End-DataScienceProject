@@ -12,7 +12,7 @@ print(os.path.dirname(os.path.realpath(__file__)))
 
 app = FastAPI()
 app.mount("/static", StaticFiles(
-    directory=os.path.dirname(os.path.realpath(__file__)) + '/app/build/'),
+    directory=os.path.dirname(os.path.realpath(__file__)) + '/static/'),
     name="static")
 
 checkpoints = Path('./checkpoints')
@@ -40,7 +40,7 @@ def predict_gdp(year: int, co2: float, oil: float, meat: float, urban: float, eg
 
 @app.get("/")
 def read_root():
-    with open('./app/build/index.html') as f:
+    with open('./static/index.html') as f:
         return HTMLResponse(f.read())
 
 
