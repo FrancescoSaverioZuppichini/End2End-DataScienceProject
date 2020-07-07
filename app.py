@@ -8,6 +8,8 @@ from joblib import dump, load
 from pathlib import Path
 from pydantic import BaseModel
 
+print(os.path.dirname(os.path.realpath(__file__)))
+
 app = FastAPI()
 app.mount("/static", StaticFiles(
     directory=os.path.dirname(os.path.realpath(__file__)) + '/app/build/'),
