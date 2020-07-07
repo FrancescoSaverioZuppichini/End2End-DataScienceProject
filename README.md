@@ -29,4 +29,6 @@ uvicorn app:app --port 8080
 
 We used [React](https://it.reactjs.org/) to create an app where you can select different values for oil, meat, etc... and see the prediction GDP.
 
+![alt](https://raw.githubusercontent.com/FrancescoSaverioZuppichini/End2End-DataScienceProject/master/images/webapp_all.png)
+
 *Keep in mind that the aim of this project is to show an simple end-end workflow to create an data science app and not to showcase the best model to fit our dataset*
