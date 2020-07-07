@@ -1,6 +1,6 @@
 # End2End-DataScienceProject
 
-An example of an end to end Data Science Project.
+An example of an end to end Data Science Project. [Check it out](https://datascience-app-example.herokuapp.com/)
 
 ### Data
 We predict the GDP using `oil and co2`, `meat and eggs` and `urbanization`. The dataset can be found in `./dataset`. 
