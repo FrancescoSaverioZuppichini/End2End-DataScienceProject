@@ -14,7 +14,7 @@ class GDPContainer extends Container {
         }
     }
 
-    API_URL = '/pred'
+    API_URL = '/api/pred'
     
     async getPrediction(data){
         const res = await axios.put(this.API_URL, data)
