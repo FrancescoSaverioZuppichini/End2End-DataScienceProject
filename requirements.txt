@@ -1,5 +1,5 @@
 joblib==0.15.1
-pydantic==1.5.1
+pydantic==1.6.2
 numpy==1.18.4
 fastapi==0.58.1
 uvicorn
